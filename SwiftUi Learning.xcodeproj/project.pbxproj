@@ -14,6 +14,7 @@
 		2B314A4C2CB52A0E00D631A6 /* StateManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B314A4B2CB52A0E00D631A6 /* StateManage.swift */; };
 		2B314A4E2CB52F5900D631A6 /* BindingManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B314A4D2CB52F5900D631A6 /* BindingManage.swift */; };
 		2B314A502CB5421300D631A6 /* ObservableManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B314A4F2CB5421300D631A6 /* ObservableManage.swift */; };
+		2BB8B2892CB65D7300162790 /* EnivornmentObjectBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB8B2882CB65D7300162790 /* EnivornmentObjectBoot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2B314A4B2CB52A0E00D631A6 /* StateManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManage.swift; sourceTree = "<group>"; };
 		2B314A4D2CB52F5900D631A6 /* BindingManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingManage.swift; sourceTree = "<group>"; };
 		2B314A4F2CB5421300D631A6 /* ObservableManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableManage.swift; sourceTree = "<group>"; };
+		2BB8B2882CB65D7300162790 /* EnivornmentObjectBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnivornmentObjectBoot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				2B314A4B2CB52A0E00D631A6 /* StateManage.swift */,
 				2B314A4D2CB52F5900D631A6 /* BindingManage.swift */,
 				2B314A4F2CB5421300D631A6 /* ObservableManage.swift */,
+				2BB8B2882CB65D7300162790 /* EnivornmentObjectBoot.swift */,
 			);
 			path = "State Management";
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				2B314A4C2CB52A0E00D631A6 /* StateManage.swift in Sources */,
 				2B314A502CB5421300D631A6 /* ObservableManage.swift in Sources */,
 				2B314A4E2CB52F5900D631A6 /* BindingManage.swift in Sources */,
+				2BB8B2892CB65D7300162790 /* EnivornmentObjectBoot.swift in Sources */,
 				2B314A3D2CB527C800D631A6 /* SwiftUi_LearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
