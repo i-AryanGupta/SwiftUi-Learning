@@ -10,8 +10,6 @@ import SwiftUI
 class UserProfile: ObservableObject{
     @Published var name: String = "Ankan"
     @Published var age: Int = 22
-
-    
 }
 
 struct EparenetView: View{
