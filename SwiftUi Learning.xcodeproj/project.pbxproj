@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B27899C2CB7A09D00E08BB7 /* NaviList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B27899B2CB7A09D00E08BB7 /* NaviList.swift */; };
 		2B314A3D2CB527C800D631A6 /* SwiftUi_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B314A3C2CB527C800D631A6 /* SwiftUi_LearningApp.swift */; };
 		2B314A3F2CB527C800D631A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B314A3E2CB527C800D631A6 /* ContentView.swift */; };
 		2B314A412CB527CB00D631A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B314A402CB527CB00D631A6 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B27899B2CB7A09D00E08BB7 /* NaviList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviList.swift; sourceTree = "<group>"; };
 		2B314A392CB527C800D631A6 /* SwiftUi Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUi Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B314A3C2CB527C800D631A6 /* SwiftUi_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUi_LearningApp.swift; sourceTree = "<group>"; };
 		2B314A3E2CB527C800D631A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B27899A2CB7A08800E08BB7 /* NavigationList */ = {
+			isa = PBXGroup;
+			children = (
+				2B27899B2CB7A09D00E08BB7 /* NaviList.swift */,
+			);
+			path = NavigationList;
+			sourceTree = "<group>";
+		};
 		2B314A302CB527C800D631A6 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		2B314A3B2CB527C800D631A6 /* SwiftUi Learning */ = {
 			isa = PBXGroup;
 			children = (
+				2B27899A2CB7A08800E08BB7 /* NavigationList */,
 				2BE7DDE02CB68AF900C10AB3 /* Task_1 */,
 				2B314A4A2CB529D600D631A6 /* State Management */,
 				2B314A3C2CB527C800D631A6 /* SwiftUi_LearningApp.swift */,
@@ -171,6 +182,7 @@
 				2B314A3F2CB527C800D631A6 /* ContentView.swift in Sources */,
 				2B314A4C2CB52A0E00D631A6 /* StateManage.swift in Sources */,
 				2BE7DDE22CB68B6300C10AB3 /* EnvironnmentTask.swift in Sources */,
+				2B27899C2CB7A09D00E08BB7 /* NaviList.swift in Sources */,
 				2B314A502CB5421300D631A6 /* ObservableManage.swift in Sources */,
 				2B314A4E2CB52F5900D631A6 /* BindingManage.swift in Sources */,
 				2BB8B2892CB65D7300162790 /* EnvironnmentObjectBoot.swift in Sources */,
