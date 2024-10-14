@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUi_LearningApp: App {
     var body: some Scene {
         WindowGroup {
-            FormView()
+            FetchApiTask()
         }
     }
 }

@@ -18,6 +18,11 @@
 		2B314A4C2CB52A0E00D631A6 /* StateManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B314A4B2CB52A0E00D631A6 /* StateManage.swift */; };
 		2B314A4E2CB52F5900D631A6 /* BindingManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B314A4D2CB52F5900D631A6 /* BindingManage.swift */; };
 		2B314A502CB5421300D631A6 /* ObservableManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B314A4F2CB5421300D631A6 /* ObservableManage.swift */; };
+		2B9041172CB8FB7200809525 /* WorkingWithData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9041162CB8FB7200809525 /* WorkingWithData.swift */; };
+		2B9041192CB9070C00809525 /* DecodingJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9041182CB9070C00809525 /* DecodingJSON.swift */; };
+		2B90411D2CB90ECD00809525 /* generated.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B90411C2CB90ECD00809525 /* generated.json */; };
+		2B90411F2CB91C5300809525 /* FetchFromApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B90411E2CB91C5300809525 /* FetchFromApi.swift */; };
+		2B9041222CB9238500809525 /* FetchApiTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9041212CB9238500809525 /* FetchApiTask.swift */; };
 		2BB8B2892CB65D7300162790 /* EnvironnmentObjectBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB8B2882CB65D7300162790 /* EnvironnmentObjectBoot.swift */; };
 		2BE7DDE22CB68B6300C10AB3 /* EnvironnmentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7DDE12CB68B6300C10AB3 /* EnvironnmentTask.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +40,11 @@
 		2B314A4B2CB52A0E00D631A6 /* StateManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManage.swift; sourceTree = "<group>"; };
 		2B314A4D2CB52F5900D631A6 /* BindingManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingManage.swift; sourceTree = "<group>"; };
 		2B314A4F2CB5421300D631A6 /* ObservableManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableManage.swift; sourceTree = "<group>"; };
+		2B9041162CB8FB7200809525 /* WorkingWithData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithData.swift; sourceTree = "<group>"; };
+		2B9041182CB9070C00809525 /* DecodingJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingJSON.swift; sourceTree = "<group>"; };
+		2B90411C2CB90ECD00809525 /* generated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = generated.json; sourceTree = "<group>"; };
+		2B90411E2CB91C5300809525 /* FetchFromApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchFromApi.swift; sourceTree = "<group>"; };
+		2B9041212CB9238500809525 /* FetchApiTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchApiTask.swift; sourceTree = "<group>"; };
 		2BB8B2882CB65D7300162790 /* EnvironnmentObjectBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironnmentObjectBoot.swift; sourceTree = "<group>"; };
 		2BE7DDE12CB68B6300C10AB3 /* EnvironnmentTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironnmentTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,14 +87,16 @@
 		2B314A3B2CB527C800D631A6 /* SwiftUi Learning */ = {
 			isa = PBXGroup;
 			children = (
+				2B314A3C2CB527C800D631A6 /* SwiftUi_LearningApp.swift */,
+				2B314A3E2CB527C800D631A6 /* ContentView.swift */,
 				2B27899A2CB7A08800E08BB7 /* NavigationList */,
 				2BE7DDE02CB68AF900C10AB3 /* Task_1 */,
 				2B314A4A2CB529D600D631A6 /* State Management */,
-				2B314A3C2CB527C800D631A6 /* SwiftUi_LearningApp.swift */,
-				2B314A3E2CB527C800D631A6 /* ContentView.swift */,
-				2B27899D2CB7AB2800E08BB7 /* FormView.swift */,
+				2B9041202CB9223F00809525 /* Data Work */,
 				2B27899F2CB7B3DD00E08BB7 /* FormViewTask.swift */,
+				2B27899D2CB7AB2800E08BB7 /* FormView.swift */,
 				2B2789A12CB7D3E300E08BB7 /* AnimationView.swift */,
+				2B90411C2CB90ECD00809525 /* generated.json */,
 				2B314A402CB527CB00D631A6 /* Assets.xcassets */,
 				2B314A422CB527CB00D631A6 /* Preview Content */,
 			);
@@ -108,6 +120,17 @@
 				2BB8B2882CB65D7300162790 /* EnvironnmentObjectBoot.swift */,
 			);
 			path = "State Management";
+			sourceTree = "<group>";
+		};
+		2B9041202CB9223F00809525 /* Data Work */ = {
+			isa = PBXGroup;
+			children = (
+				2B9041162CB8FB7200809525 /* WorkingWithData.swift */,
+				2B9041182CB9070C00809525 /* DecodingJSON.swift */,
+				2B90411E2CB91C5300809525 /* FetchFromApi.swift */,
+				2B9041212CB9238500809525 /* FetchApiTask.swift */,
+			);
+			path = "Data Work";
 			sourceTree = "<group>";
 		};
 		2BE7DDE02CB68AF900C10AB3 /* Task_1 */ = {
@@ -177,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B314A442CB527CB00D631A6 /* Preview Assets.xcassets in Resources */,
+				2B90411D2CB90ECD00809525 /* generated.json in Resources */,
 				2B314A412CB527CB00D631A6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,12 +217,16 @@
 				2BE7DDE22CB68B6300C10AB3 /* EnvironnmentTask.swift in Sources */,
 				2B27899C2CB7A09D00E08BB7 /* NaviList.swift in Sources */,
 				2B314A502CB5421300D631A6 /* ObservableManage.swift in Sources */,
+				2B90411F2CB91C5300809525 /* FetchFromApi.swift in Sources */,
 				2B2789A02CB7B3DD00E08BB7 /* FormViewTask.swift in Sources */,
 				2B314A4E2CB52F5900D631A6 /* BindingManage.swift in Sources */,
 				2B27899E2CB7AB2800E08BB7 /* FormView.swift in Sources */,
 				2B2789A22CB7D3E300E08BB7 /* AnimationView.swift in Sources */,
 				2BB8B2892CB65D7300162790 /* EnvironnmentObjectBoot.swift in Sources */,
+				2B9041222CB9238500809525 /* FetchApiTask.swift in Sources */,
+				2B9041192CB9070C00809525 /* DecodingJSON.swift in Sources */,
 				2B314A3D2CB527C800D631A6 /* SwiftUi_LearningApp.swift in Sources */,
+				2B9041172CB8FB7200809525 /* WorkingWithData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
